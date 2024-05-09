@@ -1,0 +1,42 @@
+.cards .zaglovok {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards {
+    margin-bottom: 40px;
+}
+
+.card-group img {
+    aspect-ratio: 1/1;
+}
+
+.card-group .card-footer img {
+    max-width: 40px;
+}
+
+.nachalnick_bg {
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+/* .category {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo img{
+    aspect-ratio: 1/1;
+}
